@@ -4,7 +4,6 @@
 # represents a token (a row of 10 columns) in CoNLLU format
 #
 # Author: Ika Alfina (ika.alfina@cs.ui.ac.id)
-# Last updated: October 2020
 #
 #################################################################################
 

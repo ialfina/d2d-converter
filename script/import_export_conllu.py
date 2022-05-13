@@ -3,7 +3,6 @@
 # Code for import-export the Conllu treebank
 #
 # Author: Ika Alfina (ika.alfina@cs.ui.ac.id)
-# Last updated: October 2020
 #
 #################################################################################
 
