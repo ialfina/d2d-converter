@@ -7,7 +7,7 @@
 #
 #################################################################################
 
-class ConnluData:
+class ConlluData:
 
 	def __init__(self, ID, form, lemma, UPOS, XPOS, FEAT, headID, deprel):
 		self.ID = int(ID) # colomn 1
