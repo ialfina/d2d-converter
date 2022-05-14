@@ -1,4 +1,19 @@
 
+#################################################################################
+#
+# changeLabels.py 
+#
+# to fix the incorect labels and changes them according to Indonesian annotation guidelines for UD
+#
+# @author Ika Alfina ika.alfina@cs.ui.ac.id
+#
+#################################################################################
+
+
+#################################################################################
+# the dictionary
+#################################################################################
+
 LOC_NOUN = ["luar", "dalam", "atas", "bawah", "utara", "selatan", "timur", "barat", "awal", "akhir", "tengah", "dekat", "seberang"]
 NEGATING_WORDS = {"tidak", "tak", "bukan", "jangan"}
 FOREGROUNDING_PART = {"lah", "kah", "tah"}
@@ -8,7 +23,6 @@ BULAN_ID = {"Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agu
 BULAN_ARAB = {"Muharram", "Shafar", "Rabiul", "Jumadil", "Rajab", "Sya'ban", "Ramadhan", "Ramadan", "Syawal", "Zulkaedah", "Zulhijjah"}
 BULAN = BULAN_ID.union(BULAN_ARAB)
 TIME_PROPN = HARI.union(BULAN)
-
 
 TIME_UNIT = {"abad", "tahun", "bulan", "pekan", "tanggal", "hari", "zaman", "era", "periode", "masa", "musim", "saat", "waktu", "jam", "pukul", "menit", "detik"}
 TIME_TENSE = {"sekarang", "besok", "kemaren", "lusa"}
@@ -185,10 +199,5 @@ def changeAllLabels(sentList):
 	nmod_tmod(sentList)
 	nsubj(sentList)
 	obj(sentList)
-
-
-
-
-	
 
 				
